@@ -97,3 +97,16 @@ D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_St
 D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_Students\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.csproj.CopyComplete
 D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_Students\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.exe
 D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_Students\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.pdb
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\bin\Debug\MultiQueueSimulation.exe.config
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\bin\Debug\MultiQueueSimulation.exe
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\bin\Debug\MultiQueueSimulation.pdb
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\bin\Debug\MultiQueueModels.dll
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\bin\Debug\MultiQueueModels.pdb
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.csproj.AssemblyReference.cache
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.Form1.resources
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.Properties.Resources.resources
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.csproj.GenerateResource.cache
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.csproj.CoreCompileInputs.cache
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.csproj.CopyComplete
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.exe
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueSimulation\obj\Debug\MultiQueueSimulation.pdb

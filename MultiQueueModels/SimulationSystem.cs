@@ -19,6 +19,7 @@ namespace MultiQueueModels
         ///////////// INPUTS ///////////// 
         public int NumberOfServers { get; set; }
         public int StoppingNumber { get; set; }
+        public decimal total_runtime { get; set; }
         public List<Server> Servers { get; set; }
         public List<TimeDistribution> InterarrivalDistribution { get; set; }
         public List<TimeDistribution> ServiceTimeDistribution { get; set; }

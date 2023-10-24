@@ -142,8 +142,77 @@ namespace MultiQueueModels
             return serviceTime;
         }
 
+        public int CalcWaitingTime(SimulationSystem sys)
+        {
+            //calculate the total waiting time for each case in simulation table
+            int total_time = 0;
+           for(int i = 0; i < sys.SimulationTable.Count; i++)
+            {
+                SimulationCase sim_case = sys.SimulationTable[i];
+                total_time += sim_case.TimeInQueue;
+            }
+            return total_time;
+        }
         
-        
+        public decimal CalcAvrWaitingTime(SimulationSystem sys)
+        {
+            decimal total_waitingtime = CalcWaitingTime(sys);
+            //avr = total waiting time/total no of customers
+            decimal avr_waitingtime = total_waitingtime / (sys.SimulationTable.Count);
+            return avr_waitingtime;
+        }
+
+        public int CalcNoOfWaitedCustomers(SimulationSystem sys)
+        {
+            int noOfCustomers = 0;
+            for(int i = 0; i < sys.SimulationTable.Count; i++)
+            {
+                SimulationCase sim_case = sys.SimulationTable[i];
+                if (sim_case.TimeInQueue > 0)
+                    noOfCustomers++;
+            }
+            return noOfCustomers;
+        }
+
+        public decimal CalcProbability_wait(SimulationSystem sys)
+        {
+            int noOfCustomers = CalcNoOfWaitedCustomers(sys);
+            //prob(wait) = no of waited customers / total no of customers
+            decimal probability_wait = (decimal)noOfCustomers / sys.SimulationTable.Count;
+            return probability_wait;
+        }
+
+        void PerformanceMeasuresPerServer(SimulationSystem sys)
+        {
+               //total service time of each server
+            for(int i = 0; i < sys.SimulationTable.Count; i++)
+            {
+                if (sys.SimulationTable[i].EndTime > sys.total_runtime)
+                    sys.total_runtime = sys.SimulationTable[i].EndTime;
+            }
+               //total idle time of each server
+            for (int i = 0; i < sys.Servers.Count; i++)
+            {
+                decimal total_workingtime = sys.Servers[i].TotalWorkingTime;
+                decimal total_idletime = sys.total_runtime - total_workingtime;
+                //IdleProbability = total idle time of server i /total run time 
+                sys.Servers[i].IdleProbability = total_idletime / sys.total_runtime;
+
+                //average service time = total service time / total no of customers
+                int noOfCustomers = sys.Servers[i].TotalNoOfCustomers.Count;
+                decimal avr_servicetime = 0;
+                if (noOfCustomers > 0)
+                {
+                    avr_servicetime = total_workingtime / noOfCustomers;
+                }
+                sys.Servers[i].AverageServiceTime = avr_servicetime;
+
+                //utilization(i) = total time server i spends on calls / total run time of simulation
+                sys.Servers[i].Utilization = sys.Servers[i].TotalWorkingTime / sys.total_runtime;
+            }
+
+        }
 
     }
+        
 }

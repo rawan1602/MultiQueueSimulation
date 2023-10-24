@@ -40,3 +40,9 @@ D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_St
 D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_Students\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.dll
 D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_Students\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.pdb
 D:\1_FCIS matirials\4th year materials\1st_term\Modelling&simulation\Template_Students\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.csprojAssemblyReference.cache
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueModels\bin\Debug\MultiQueueModels.dll
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueModels\bin\Debug\MultiQueueModels.pdb
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.csproj.AssemblyReference.cache
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.csproj.CoreCompileInputs.cache
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.dll
+C:\Users\Rewan\Documents\GitHub\MultiQueueSimulation\MultiQueueModels\obj\Debug\MultiQueueModels.pdb
